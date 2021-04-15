@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
-
+//跨域
+const cors = require('cors');
+app.use(cors());
 //配置路径
 const path=require('path')
 const hostName='34.92.92.224'
