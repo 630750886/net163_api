@@ -3,7 +3,7 @@ const app = express()
 
 //配置路径
 const path=require('path')
-const hostName='35.221.173.211'
+const hostName='34.92.92.224'
 const port='8888'
 app.use(express.static(path.join(__dirname,'assets')))
 // 首页数据
