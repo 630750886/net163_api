@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(cors());
 //配置路径
 const path=require('path')
-const hostName='168.138.130.227'
+const hostName='168.138.134.136'
 const port='8888'
 app.use(express.static(path.join(__dirname,'assets')))
 // 首页数据
